@@ -69,7 +69,8 @@ function App() {
 
   return (
     <main>
-      {learnerData.learners.map(learner => <Learner
+      {learnerData.learners.map((learner, idx) => <Learner
+        key={idx}
         name={learner.name}
         bio={learner.bio}
         scores={learner.scores}

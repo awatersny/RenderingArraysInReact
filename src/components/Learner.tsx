@@ -16,8 +16,9 @@ export default function Learner({name, bio, scores}: LearnerProps) {
     <div className="learner">
       <div className='info'><b>Name: </b>{name}</div>
       <div className='info'><b>Bio: </b>{bio}</div>
-      <div className='info'><b>Scores:</b>{scores.map(score => 
+      <div className='info'><b>Scores:</b>{scores.map((score, idx) => 
         <Score
+          key={idx}
           score={score.score}
           date={score.date}
         />)}
