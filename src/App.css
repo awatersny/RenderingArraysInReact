@@ -1,7 +1,11 @@
 .learner {
+  font-family: sans-serif;
+  background-color: #030;
+  color: white;
   margin: 50px;
   padding: 20px;
-  border: 10px outset blue;
+  border: 20px inset brown;
+  box-shadow: 10px 15px 15px black;
   font-size: 20pt;
 }
 
@@ -11,4 +15,12 @@
 
 .score {
   margin: 10px 0 0 20px
+}
+
+b {
+  color: gold
+}
+
+em {
+  color: white;
 }
