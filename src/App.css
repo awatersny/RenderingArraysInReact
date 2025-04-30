@@ -6,24 +6,19 @@
   background-color: #030;
   color: white;
   margin: 50px;
-  padding: 20px;
   border: 20px ridge brown;
   box-shadow: 10px 15px 15px black;
   font-size: 20pt;
 }
 
 .info {
-  margin: 20px;
+  margin: 50px;
 }
 
 .score {
-  margin: 10px 0 0 20px
+  margin: 20px
 }
 
 b {
   color: gold
-}
-
-em {
-  color: white;
 }
