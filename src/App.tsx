@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Learner from './components/Learner'
 import './App.css'
 
 function App() {
@@ -66,7 +67,11 @@ function App() {
 
   return (
     <>
-      {learners.map(learner => <>learner</>)}
+      {learners.map(learner => <Learner
+        name={learner.name}
+        bio={learner.bio}
+        // scores={learner.scores}
+      />)}
     </>
   )
 }
