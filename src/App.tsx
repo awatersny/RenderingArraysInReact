@@ -68,13 +68,13 @@ function App() {
   })
 
   return (
-    <>
+    <main>
       {learnerData.learners.map(learner => <Learner
         name={learner.name}
         bio={learner.bio}
         scores={learner.scores}
       />)}
-    </>
+    </main>
   )
 }
 
